@@ -1,0 +1,44 @@
+body {
+    background-color: #282f3c; 
+}
+
+
+.jumbotron {
+    border: solid; 
+    border-width: 5px;
+    border-color: #f7cc52;
+}
+
+.form-container {
+    margin-top: 20px; 
+    margin-left: 15px; 
+    width: 97%; 
+    
+}
+.card-title {
+    background-color: #429adf;
+    color: #f7cc52;
+    font-size: large; 
+    padding: 10px 0px 10px 10px; 
+}
+th {
+    color: #429adf;
+    border: solid; 
+    border-width: 5px;
+    border-color: #f7cc52;
+}
+#add-train-btn {
+    background-color: #429adf;
+    color: #f7cc52;
+    margin-left: -12px;  
+}
+
+#footer {
+    height: 50px;
+    width: 100%; 
+    margin-top: 50px; 
+    text-align: center; 
+    position: absolute; 
+    background-color: #429adf;
+    color: #f7cc52;
+}
