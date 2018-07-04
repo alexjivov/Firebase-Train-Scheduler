@@ -10,7 +10,6 @@
     <!--Bootstrap and CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
     <!--Firebase-->
     <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
@@ -24,7 +23,7 @@
         <div class="jumbotron" style="background-color: #429adf; color: #f7cc52">
             <h1 class="text-center">Want to Know When Your Train is Coming?</h1>
             <h3 class="text-center">Well... its here.</h3>
-            
+
         </div>
 
         <div class="row">
@@ -38,7 +37,7 @@
                         </h3>
                     </div>
                     <div class="card-body">
-                        <table class="table table-hover" id='employee-table'>
+                        <table class="table table-hover" id='train-table'>
                             <thead>
                                 <tr>
                                     <th>Train Name</th>
@@ -54,38 +53,38 @@
                     </div>
                 </div>
             </div>
-            
+
             <!-- Add Employee  -->
             <div class="form-container">
-            <div class="card card-primary">
-                <div class="card-heading">
-                    <h3 class="card-title">
-                        <strong>Search Train</strong>
-                    </h3>
-                </div>
-                <div class="card-body">
-                
-                    <!-- Entry Form -->
-                    <form>
-                        <div class="form-group row">
-                            <label for="train-name-input">Train Name</label>
-                            <input class="form-control" id="train-name-input" type="text">
-                        </div>
-                        <div class="form-group row">
-                            <label for="destination-input">Destination</label>
-                            <input class="form-control" id="desintation-input" type="text">
-                        </div>
-                        <div class="form-group row">
-                            <label for="time-input">First Train Time (HH - MM: Military Time)</label>
-                            <input class="form-control" id="time-input" type="text">
-                        </div>
-                        <div class="form-group row">
-                            <label for="frequency-input">Frequency (minute)</label>
-                            <input class="form-control" id="frequency-input" type="text">
-                        </div>
-                        <button class="btn btn-primary" id="add-train-btn" type="submit">Submit</button>
-                    </form>
-                </div>
+                <div class="card card-primary">
+                    <div class="card-heading">
+                        <h3 class="card-title">
+                            <strong>Search Train</strong>
+                        </h3>
+                    </div>
+                    <div class="card-body">
+
+                        <!-- Entry Form -->
+                        <form>
+                            <div class="form-group row">
+                                <label for="train-name-input">Train Name</label>
+                                <input class="form-control" id="train-name-input" type="text">
+                            </div>
+                            <div class="form-group row">
+                                <label for="destination-input">Destination</label>
+                                <input class="form-control" id="desintation-input" type="text">
+                            </div>
+                            <div class="form-group row">
+                                <label for="time-input">First Train Time (HH - MM: Military Time)</label>
+                                <input class="form-control" id="time-input" type="text">
+                            </div>
+                            <div class="form-group row">
+                                <label for="frequency-input">Frequency (minute)</label>
+                                <input class="form-control" id="frequency-input" type="text">
+                            </div>
+                            <button class="btn btn-primary" id="add-train-btn" type="submit">Submit</button>
+                        </form>
+                    </div>
                 </div>
 
             </div>
